@@ -2,7 +2,7 @@
 
 ## Overview
 
-- Overall this one I felt go pretty smooth until the end. I felt this one I did cleaner and used px a lot less.
+- Overall this one I felt go pretty smoothly until the end. I felt this one I did cleaner and used px a lot less.
 
 ### The challenge
 

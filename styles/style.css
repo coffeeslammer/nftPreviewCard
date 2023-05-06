@@ -1,0 +1,148 @@
+ @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+ body {
+     display: grid;
+     justify-content: center;
+     align-items: center;
+     background-color: hsl(217, 54%, 11%);
+     min-height: 100vh;
+     color: white;
+     font-family: 'Outfit', sans-serif;
+ }
+
+ .card-container {
+     display: grid;
+     max-width: min-content;
+     max-height: max-content;
+     background-color: hsl(216, 50%, 16%);
+     border-radius: 12px;
+     padding: 25px;
+ }
+
+
+ .image-container {
+     position: relative;
+     border-radius: .5rem;
+ }
+
+ .hidden-eye {
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%, -50%);
+     opacity: 0;
+ }
+
+ .cube {
+     display: block;
+     width: 300px;
+     height: 300px;
+     border-radius: .5rem;
+ }
+
+ .equilibrium {
+     margin-top: 1.25rem;
+     margin-bottom: 1.25rem;
+     font-size: 1.375rem;
+     text-decoration: none;
+     color: white;
+     font-weight: 600;
+ }
+
+ h2 {
+     margin-top: 1.25rem;
+     margin-bottom: 1.25rem;
+ }
+
+ p {
+     color: hsl(215, 51%, 70%);
+     font-weight: 300;
+     margin-top: 0;
+     margin-bottom: 2rem;
+ }
+
+ .nft-container {
+     display: flex;
+     justify-content: space-between;
+
+ }
+
+ .nft {
+     display: flex;
+ }
+
+ .ethereum {
+     color: hsl(178, 100%, 50%);
+     font-weight: 600;
+     padding-left: .5rem;
+ }
+
+ .time {
+     display: flex;
+     flex-flow: wrap;
+ }
+
+ .time img {
+     padding-right: .5rem;
+ }
+
+ .days-left {
+     color: hsl(215, 51%, 70%);
+ }
+
+ .outline {
+     width: 2rem;
+     height: 2rem;
+     background-color: white;
+     border-radius: 50%;
+ }
+
+ hr {
+     color: hsl(215, 32%, 27%);
+     width: 100%;
+     margin-top: 1.5rem;
+     margin-bottom: 1.5rem;
+ }
+
+ .creator {
+     display: flex;
+     align-items: center;
+ }
+
+ .outline {
+     display: grid;
+     place-content: center;
+ }
+
+ .avatar {
+     width: 30px;
+     height: 30px;
+ }
+
+ .creation-text {
+     color: hsl(215, 51%, 70%);
+     padding-left: 1rem;
+     padding-right: .3rem;
+ }
+
+ .jules-wyvern {
+     text-decoration: none;
+     color: white;
+ }
+
+ .jules-wyvern:hover,
+ .equilibrium:hover {
+     color: hsl(178, 100%, 50%);
+ }
+
+ .image-container:hover {
+     background-color: hsl(178, 100%, 50%);
+ }
+
+ .cube:hover {
+     opacity: .5;
+ }
+
+ .image-container:hover .hidden-eye {
+     opacity: 1;
+ }
